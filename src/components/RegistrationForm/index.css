@@ -1,0 +1,96 @@
+/* Write your CSS code here */
+.registration-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffff;
+  font-family: 'Roboto';
+}
+
+/* Heading */
+.heading {
+  color: #ea580c;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+/* Form Box */
+.form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 450px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.input-label {
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+/* Input Fields */
+.input-field {
+  height: 40px;
+  padding: 8px 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  background-color: #fef2f4;
+}
+
+/* Error Text */
+.error-message {
+  color: #ff0b37;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #ea580c;
+  color: #ffffff;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Success View */
+.success-view {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success-img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 20px;
+}
